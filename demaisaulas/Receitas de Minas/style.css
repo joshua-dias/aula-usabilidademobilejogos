@@ -1,0 +1,37 @@
+header {
+  background-color: black;
+  color: floralwhite;
+  font-size: 30px;
+  width: 100%;
+  
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.cabecalho-imagem {
+  display: flex;
+  align-items:center ;
+  gap: 20px;
+  width: 100px;
+}
+
+body {
+  background-color: cornsilk;
+  font-family: 'Supermercado One', cursive;
+}
+
+.receitas {
+  text-align: center;
+  align-items: center;
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+li {
+  list-style-type: none;
+}

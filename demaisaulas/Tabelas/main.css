@@ -1,0 +1,78 @@
+body {
+    background-image: url(Wallpaper.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 12px;
+}
+  
+td, th {
+    border: 1px solid #333;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+header {
+    display: flex;
+    background-color: #333;
+    color: azure;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 22px;
+    color: azure;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+    text-decoration-line:none ;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+
+.tabela {
+    background-color: rgb(233, 207, 173);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: aliceblue;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    font-size: 45px;
+    display: block;
+    text-align: center;
+}
+
+thead {
+    background-color: antiquewhite;
+}
+
+h1 {
+    width: 20%;
+}
+
+p {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    font-size: 25px;
+    font-weight: bolder;
+}

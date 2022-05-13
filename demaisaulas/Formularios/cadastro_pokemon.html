@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Pokemon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Cadastro de Pokémons</h1>
+    <h2><a href="pokemon_cadastrados.html">Pokémons Cadastrados</a></h2>
+  </header>
+
+  <form style="text-align: center;">
+    <label id="descricao">
+      <p>Descrição:</p>
+      <textarea name="comentario" id="descricao" cols="30" rows="10" maxlength="255"></textarea>
+    </label>
+    <p></p>
+    <label id="num">
+      Número:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="name">
+      Nome:
+      <input type="">
+    </label>
+    <p></p>
+    <label id="type1">Tipo1:
+      <select name="tipo" id="tipo">
+        <option value="aço">Aço</option>
+        <option value="agua">Água</option>
+        <option value="dragão">Dragão</option>
+        <option value="elétrico">Elétrico</option>
+        <option value="fada">Fada</option>
+        <option value="fantasma">Fantasma</option>
+        <option value="fogo">Fogo</option>
+        <option value="gelo">Gelo</option>
+        <option value="inseto">Inseto</option>
+        <option value="lutador">Lutador</option>
+        <option value="normal">Normal</option>
+        <option value="pedra">Pedra</option>
+        <option value="planta">Planta</option>
+        <option value="psiquico">Psiquico</option>
+        <option value="sombrio">Sombrio</option>
+        <option value="terra">Terra</option>
+        <option value="venenoso">Venenoso</option>
+        <option value="voador">Voador</option>
+      </select>
+    </label>
+    <p></p>
+    <label id="type2">Tipo2:
+      <select name="tipo" id="tipo">
+        <option value="aço">Aço</option>
+        <option value="agua">Água</option>
+        <option value="dragão">Dragão</option>
+        <option value="elétrico">Elétrico</option>
+        <option value="fada">Fada</option>
+        <option value="fantasma">Fantasma</option>
+        <option value="fogo">Fogo</option>
+        <option value="gelo">Gelo</option>
+        <option value="inseto">Inseto</option>
+        <option value="lutador">Lutador</option>
+        <option value="normal">Normal</option>
+        <option value="pedra">Pedra</option>
+        <option value="planta">Planta</option>
+        <option value="psiquico">Psiquico</option>
+        <option value="sombrio">Sombrio</option>
+        <option value="terra">Terra</option>
+        <option value="venenoso">Venenoso</option>
+        <option value="voador">Voador</option>
+      </select>
+    </label>
+    <p></p>
+    <label id="atk">Ataque:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="def">Defesa:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="atk-special">Ataque Especial:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="def-special">Defesa Especial:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="velocity">Velocidade:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="total">Total:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="generation">Geração Introduzida:
+      <select name="geracao">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+      </select>
+    </label>
+    <p></p>
+    <label id="legendary">Lendário:
+      <input type="radio" name="lendario" id="sim" checked>
+      <label for="Sim">Sim</label>
+      <input type="radio" name="lendario" id="nao" checked>
+      <label for="Não">Não</label>
+    </label>
+    <p></p>
+    <label id="color">Cor:
+      <select name="cor">
+        <option value="amarelo">Amarelo</option>
+        <option value="azul">Azul</option>
+        <option value="branco">Branco</option>
+        <option value="cinza">Cinza</option>
+        <option value="marrom">Marrom</option>
+        <option value="preto">Preto</option>
+        <option value="rosa">Rosa</option>
+        <option value="roxo">Roxo</option>
+        <option value="verde">Verde</option>
+        <option value="vermelho">Vermelho</option>
+      </select>
+    </label>
+    <p></p>
+    <label id="height">Altura:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="weight">Peso:
+      <input type="number">
+    </label>
+    <p></p>
+    <label id="tx-capture">Taxa de Captura:
+      <input type="number" min="0" max="255">
+    </label>
+    <p></p>
+    <input type="button" value="Registrar" onclick="cadastroPokemon()">
+  </form>
+</body>
+
+</html>
